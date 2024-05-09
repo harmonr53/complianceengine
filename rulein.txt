@@ -1,0 +1,237 @@
+{
+    "Rules": [
+        {
+            "Rulename": "CB-15R1",
+            "Type": "JASKEJASKETE",
+            "Mode": "FAIL",
+            "Modeexpiry": null,
+            "Select": [
+                {
+                    "Field": {
+                        "Number": 1,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'CB-15'"]
+                },
+                {
+                    "Field": {
+                        "Number": 5,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "NE",
+                    "Val": ["'DOCUMENTP'", "'DFGHJKL3M'", "'TCGEA098'", "'XYZWVUT6B'"]
+                }
+            ],
+            "Pass": [
+                {
+                    "Field": {
+                        "Number": 7,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "NC",
+                    "Val": ["'DOC'"]
+                },
+                {
+                    "Field": {
+                        "Number": 8,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "NE",
+                    "Val": ["'DESKTOP'"]
+                }
+            ]
+        },
+        {
+            "Rulename": "CB-15R2",
+            "Type": "IPv6REQUIRDP",
+            "Mode": "FAIL",
+            "Modeexpiry": null,
+            "Select": [
+                {
+                    "Field": {
+                        "Number": 1,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'CB-15'"]
+                }
+            ],
+            "Pass": [
+                {
+                    "Field": {
+                        "Number": 7,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "CO",
+                    "Val": ["'DOC'"]
+                },
+                {
+                    "Field": {
+                        "Number": 9,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "NE",
+                    "Val": ["'DESKTOP'"]
+                }
+            ]
+        },
+        {
+            "Rulename": "DADS1",
+            "Type": "DITTERM",
+            "Mode": "FAIL",
+            "Modeexpiry": null,
+            "Select": [
+                {
+                    "Field": {
+                        "Number": 1,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'DADS'"]
+                },
+                {
+                    "Field": {
+                        "Number": 4,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "NE",
+                    "Val": ["'SPV17'"]
+                }
+            ],
+            "Pass": [
+                {
+                    "Field": {
+                        "Number": 12,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'DIFFERNT'"]
+                },
+                {
+                    "Field": {
+                        "Number": 5,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'DEVICEP'"]
+                }
+            ]
+        },
+        {
+            "Rulename": "Compliance1",
+            "Type": "QSQIDUSR",
+            "Mode": "FAIL",
+            "Modeexpiry": null,
+            "Select": [
+                {
+                    "Field": {
+                        "Number": 1,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'Compliance'"]
+                },
+                {
+                    "Field": {
+                        "Number": 4,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'SVPL4'"]
+                }
+            ],
+            "Pass": [
+                {
+                    "Field": {
+                        "Number": 9,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "NE",
+                    "Val": ["'DGOI7451'"]
+                }
+            ]
+        },
+        {
+            "Rulename": "Compliance2",
+            "Type": "QSQIDUSR",
+            "Mode": "FAIL",
+            "Modeexpiry": null,
+            "Select": [
+                {
+                    "Field": {
+                        "Number": 1,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'Compliance'"]
+                },
+                {
+                    "Field": {
+                        "Number": 4,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'SVPL4'"]
+                }
+            ],
+            "Pass": [
+                {
+                    "Field": {
+                        "Number": 9,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "NE",
+                    "Val": ["'DGOI7451'"]
+                },
+                {
+                    "Field": {
+                        "Number": 10,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'DGOI7451'"]
+                }
+            ]
+        }
+    ],
+    "Exceptions": [
+        {
+            "Id": 2,
+            "Rule": "CA7SECPARM07",
+            "Expires": "20240831",
+            "Voted": "20230818",
+            "Reason": "MMS approved exception #27",
+            "Identify": [
+                {
+                    "Field": {
+                        "Number": 10,
+                        "Start": 0,
+                        "Length": 0
+                    },
+                    "Op": "EQ",
+                    "Val": ["'PRDJA.MICS.JCLLIB'"]
+                }
+            ],
+            "Contact": "Made Up Person"
+        }
+    ]
+}

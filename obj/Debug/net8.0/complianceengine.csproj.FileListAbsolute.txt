@@ -1,0 +1,14 @@
+/Users/robertharmon/repos/complianceengine/complianceengine/bin/Debug/net8.0/complianceengine
+/Users/robertharmon/repos/complianceengine/complianceengine/bin/Debug/net8.0/complianceengine.deps.json
+/Users/robertharmon/repos/complianceengine/complianceengine/bin/Debug/net8.0/complianceengine.runtimeconfig.json
+/Users/robertharmon/repos/complianceengine/complianceengine/bin/Debug/net8.0/complianceengine.dll
+/Users/robertharmon/repos/complianceengine/complianceengine/bin/Debug/net8.0/complianceengine.pdb
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/complianceengine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/complianceengine.AssemblyInfoInputs.cache
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/complianceengine.AssemblyInfo.cs
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/complianceengine.csproj.CoreCompileInputs.cache
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/complianceengine.dll
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/refint/complianceengine.dll
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/complianceengine.pdb
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/complianceengine.genruntimeconfig.cache
+/Users/robertharmon/repos/complianceengine/complianceengine/obj/Debug/net8.0/ref/complianceengine.dll
